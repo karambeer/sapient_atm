@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-content {
+  background-color: #ccc;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.App-content .left {
+  float:left;
+  width:40%;
+  background: #fff;
+  margin: 10px;
+}
+
+.App-content .left input[type=button] {
+  background: blue;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.App-content .right {
+  float: right;
+  width: 50%;
+  margin: 10px;
+}
+
+.App-content .right ul li {
+  list-style: none;
+}
+
+.clear {
+  clear:both;
+}
